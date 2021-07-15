@@ -1,0 +1,51 @@
+<!-- <div><mat-icon matBadge="{{ total }}" matBadgeColor="warn">chat</mat-icon></div> -->
+<div class="nav">
+  <mat-toolbar>
+    <mat-icon id="icon" mat-list-icon
+      ><span class="material-icons"> account_circle </span></mat-icon
+    >
+    <span class="fill-space">
+      <h1 style="margin-left: 30px">{{ "Hi " + name }}</h1></span
+    >
+
+    <button (click)="logout()" id="btn_out">Log out</button>
+  </mat-toolbar>
+</div>
+
+<div class="main">
+  <!-- if -->
+  <div class="progress-bar" [hidden]="dk">
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  </div>
+
+  <!-- else -->
+  <div [hidden]="!dk" id="box" *ngFor="let group of groups | async">
+    <mat-card [routerLink]="[group.name, 'messages']">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image">
+          <mat-icon id="icon" mat-list-icon>chat</mat-icon>
+        </div>
+        <mat-card-title id="name">{{ group.name }}</mat-card-title>
+        <mat-card-subtitle id="p">{{ group.description }}</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+  </div>
+</div>
+<div id="bottom">
+  <button
+    style="
+      float: right;
+      margin-right: 30px;
+      border-radius: 50%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-style: none;
+      background-color: rgb(204, 126, 126);
+    "
+    (click)="openDialog()"
+  >
+    <mat-icon aria-hidden="true" aria-label="Example home icon" id="icon2">
+      <span class="material-icons-outlined"> control_point </span></mat-icon
+    >
+  </button>
+</div>

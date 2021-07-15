@@ -1,0 +1,49 @@
+#icon {
+  background-color: rgb(226, 169, 169);
+  padding: 10px;
+  border-radius: 50%;
+  float: left;
+}
+#icon1 {
+  background-color: rgb(226, 169, 169);
+  padding: 10px;
+  border-radius: 50%;
+  float: right;
+}
+
+.box {
+  margin-top: 80px;
+}
+.card {
+  padding: 0px 20px 0px 20px;
+}
+mat-card {
+  margin-top: 5px;
+
+  opacity: 0.9;
+  width: auto;
+  background-color: aliceblue;
+}
+.message-editor {
+  width: 93%;
+  padding-top: 2px;
+  padding-left: 7%;
+  bottom: 0px;
+  transition: top 800ms ease 0s;
+  position: fixed;
+  z-index: 9999;
+  background-color: slategray;
+  opacity: 0.8;
+}
+.message-editor-field {
+  font-size: 16px;
+  width: 80%;
+  color: black;
+}
+.navbar-fixed-top {
+  top: 0px;
+  transition: top 800ms ease 0s;
+  position: fixed;
+  z-index: 9999;
+  background-color: slategray;
+}

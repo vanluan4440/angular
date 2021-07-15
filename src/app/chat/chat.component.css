@@ -1,0 +1,78 @@
+mat-card {
+  margin-top: 10px;
+  opacity: 0.9;
+}
+.main {
+  margin-top: 80px;
+}
+#box {
+  padding: 0px 20px 0px 20px;
+}
+#icon {
+  background-color: rgb(226, 169, 169);
+  padding: 10px;
+  border-radius: 50%;
+  float: left;
+}
+#name {
+  text-transform: uppercase;
+  color: black;
+}
+mat-card {
+  background-color: whitesmoke;
+}
+#p {
+  color: black;
+}
+.nav {
+  top: 0px;
+  transition: top 800ms ease 0s;
+  position: fixed;
+  z-index: 9999;
+
+  width: 100%;
+}
+mat-toolbar {
+  background-color: rgb(164, 238, 238);
+  color: black;
+}
+mat-progress-bar {
+  width: 100%;
+  height: 5px;
+  color: aqua;
+  border-radius: 5px;
+}
+.progress-bar {
+  width: 90%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#btn_out {
+  margin-right: 50px;
+  padding: 8px 20px 8px 20px;
+  background-color: rgb(243, 31, 31);
+  border-radius: 5px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+a {
+  float: right;
+  text-decoration: none;
+  color: black;
+}
+.fill-space {
+  flex: 1 1 auto;
+}
+#bottom {
+  width: 100%;
+  bottom: 0px;
+  transition: top 800ms ease 0s;
+  position: fixed;
+  z-index: 9999;
+}
+#icon2 {
+  background-size: 100%;
+
+  float: right;
+}

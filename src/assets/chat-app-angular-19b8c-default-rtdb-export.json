@@ -1,0 +1,72 @@
+{
+  "groups" : {
+    "room 01" : {
+      "description" : "public room 1",
+      "name" : "room_1"
+    },
+    "room 02" : {
+      "description" : "public room 2",
+      "name" : "room_2"
+    },
+    "room 03" : {
+      "description" : "public room 3",
+      "name" : "room_3"
+    }
+  },
+  "messages" : {
+    "-Me527ySdRunQkY3YKr_" : {
+      "group" : "room_1",
+      "text" : "hello"
+    },
+    "-Me53QO_-uJ0ijH21Sfv" : {
+      "group" : "room_1",
+      "text" : "Hi"
+    },
+    "-Me53Rb8TZaopqYRf5v9" : {
+      "group" : "room_1",
+      "text" : "asdasd"
+    },
+    "-Me53TNEtb9EDQ1HBG1V" : {
+      "group" : "room_1",
+      "text" : "w"
+    },
+    "-Me53U6TtcIRh9iAssdB" : {
+      "group" : "room_1",
+      "text" : "h"
+    },
+    "-Me53VRXoX4HcUE6ljKK" : {
+      "group" : "room_1",
+      "text" : "a"
+    },
+    "-Me5WDPkWhGZScsTtMHw" : {
+      "group" : "room_3",
+      "text" : "Luan"
+    },
+    "-Me7wIWR70jjXl5AMq83" : {
+      "group" : "room_1",
+      "text" : "Hello"
+    },
+    "-Me8Ds8m7oDYUGOSXESS" : {
+      "group" : "room_1",
+      "text" : "How are you today"
+    },
+    "-Me9Gyueowdi0MBesxCF" : {
+      "group" : "room_2",
+      "text" : "How are you today"
+    }
+  },
+  "user" : {
+    "user1" : {
+      "avatar" : "anh_123",
+      "email" : "luan@gmail.com",
+      "name" : "Đinh Văn Luận",
+      "pass" : 123
+    },
+    "user2" : {
+      "avatar" : "anh_134",
+      "email" : "admin@gmail.com",
+      "name" : "Admin",
+      "pass" : 123456
+    }
+  }
+}

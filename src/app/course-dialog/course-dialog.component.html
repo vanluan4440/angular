@@ -1,0 +1,29 @@
+<div>
+  <h1 style="text-align: center">Create new room</h1>
+  <form>
+    <label for="fname">Room name</label>
+    <input
+      #name
+      type="text"
+      id="fname"
+      placeholder="enter room name"
+      [(ngModel)]="name1"
+    />
+
+    <label for="lname">Description:</label>
+    <input
+      #des
+      type="text"
+      id="lname"
+      placeholder="description"
+      [(ngModel)]="des1"
+    />
+
+    <input
+      type="submit"
+      value="Submit"
+      id="submit"
+      (click)="Add(name.value, des.value)"
+    />
+  </form>
+</div>
